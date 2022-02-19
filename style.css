@@ -1,0 +1,162 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+.class3{
+  padding-left: 245px;
+  
+}
+.navbar{
+  display:flex;
+  justify-content:space-evenly;
+  border: 2px solid black;
+  padding: 10px;
+  height: 30px;
+  font-size: 19px;
+  padding-left: 200px;
+ 
+}
+
+
+.side img{
+  max-height: 4vh;
+}
+.side{
+  display: flex;
+   padding-top: 10px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+ 
+    
+}
+li a{
+  text-decoration: none;
+  color: black;
+ 
+}
+li{
+  list-style: none;
+  border: 1px solid gray;
+  border-radius: 10px;
+  font-size: 15px;
+  padding-top: 3px;
+}
+a:hover{
+  color: rgb(206, 13, 13);
+  text-decoration: underline;
+}
+.logo{
+    display: flex;
+    padding-top: 10px;
+    
+    
+}
+.logo img{
+    height: 85vh;
+    max-height: 4vh;
+    padding-left: 5px;
+}
+.titel img{
+    
+    max-height: 20vh;
+    width: 250px;
+    
+}
+.titel{
+    display:inline-block;
+    justify-content:flex-start;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.left{
+  height: 95vh;
+  max-height: 4vh;
+  display:flex;
+  justify-content:flex-end;
+  text-overflow: clip;
+
+}
+.coo{
+  padding-left: 385px;
+  padding-top: 1px;
+  max-height: 10vh;
+  display: inline;
+  justify-content: space-between;
+  
+}
+.coo img{
+  max-height: 4.5vh;
+}
+
+
+.foot{
+  font-family: cursive;
+  padding-left: 20px;
+  padding-bottom: 50px;
+   
+}
+
+.noti-logi{
+  display: flex;
+  justify-content: flex-end;
+  max-height: 4vh;
+}
+.box{
+  padding-left: 25%;
+  padding-top: 0;
+  padding-bottom: 5px;
+  
+}
+#search{
+  display: inline-block;
+  justify-content: center;
+  width: 400px;
+  height: 40px;
+  border: 2px solid rgb(3, 3, 3);
+  background-color:white;
+  color: #111;
+ 
+}
+.sidenav {
+    height: 100%; 
+    width: 240px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 45px;;
+    left: 0;
+    background-color:white;
+    color: black; 
+    overflow-x:hidden; 
+    padding-top: 20px;
+  }
+  
+  
+.sidenav a {
+    padding: 5px 6px 5px 12px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #0a0909;
+    display:block;
+  }
+  
+  
+  .sidenav a:hover {
+    color:rgb(252, 77, 77);
+  }
+  
+ 
+  .main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+  }
+  
+ 
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
